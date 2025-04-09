@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  app:
+    # Build the image from the Dockerfile in the current directory
+    build: .
+    # Mount the current directory into the container at /app
+    # This allows for live code changes without rebuilding the image (useful for development)
+    # volumes:
+    #  - .:/app
+    # Load environment variables from the .env file in the current directory
+    env_file:
+      - .env
+    # Keep stdin open even if not attached, and allocate a pseudo-TTY
+    # This is necessary for the Python script to accept input via input()
+    stdin_open: true
+    tty: true 

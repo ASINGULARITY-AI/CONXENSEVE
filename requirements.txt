@@ -1,0 +1,2 @@
+openai
+python-dotenv # For API key management 
