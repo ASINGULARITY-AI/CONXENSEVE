@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CONXENSEVE: Synergistic AI Code Generation
 
 **CONXENSEVE** (Consensus LLM Agent - Codename: EVE-Enhancer) is a cutting-edge prototype designed as a core component for our AI Agent Ecosystem (led by EVE). Its primary mission is to **empower fully autonomous operation and self-improvement** by leveraging the collective intelligence of multiple leading Large Language Models (LLMs) for complex code generation tasks.
@@ -60,3 +61,7 @@ The current version is a functional command-line Python script (`main.py`) imple
 ## Memory Bank
 
 Project context, technical details, and progress are tracked in the `memory-bank/` directory, following Cursor's Memory Bank standard.
+=======
+# CONXENSEVE
+Multi-LLM Consensus: The core engine for advanced AI agent autonomy.
+>>>>>>> 3ad3eb547aa11b5249d538921b899f44d6f297c6
